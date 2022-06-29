@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form 1</title>
+</head>
+<body>
+    <section class="card">
+        <div class="card__wrapper">
+            <form class="card__form" action="#" name="card_form" method="post">
+                <h4 class="card__title">Оставьте свой отзыв на “Ароматическое саше”</h4>
+                <textarea placeholder="Ваш отзыв*" class="card__textarea" name="card_textarea" id="card_textarea" required></textarea>
+                <div class="card__userinfo">
+                    <input class="card__input" type="text" required placeholder="Имя*">
+                    <input class="card__input" type="tel" required placeholder="Телефон*">
+                    <input class="card__input" type="email" placeholder="Email">
+                </div>
+                <div class="card__form__items">
+                    <button type="submit" class="card__form__btn">Отправить</button>
+                    <input class="card__form__checkbox" type="checkbox" name="form_checkbox" id="form_checkbox" value="Agree" checked>
+                    <label class="card__checkbox__label" for="form_checkbox" >Сохранить моё имя, email и адрес сайта в этом браузере для последующих моих комментариев.</label>
+                    
+                </div>
+
+            </form>
+        </div>
+    </section>
+</body>
+</html>
